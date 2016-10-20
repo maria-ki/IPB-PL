@@ -1,0 +1,23 @@
+"wyp³ata stówki (pi¹teczek)"
+1. w³ó¿ kartê
+- weryfikuj kartê: 
+-- sprawdŸ wa¿noœæ (data)
+-- sprawdŸ czy obs³ugiwana
+-- czy podrobiona/kradziona/etc.
+--- kontakt z bankiem, sprawdzenie na liœcie, je¿eli ok, to...
+2. wybierz jêzyk
+3. podaj pin
+4. zweryfikuj pin
+- sprawdŸ iloœæ cyfr" je¿eli = 4-> dalej, je¿eli !=4 ->wyœwietl komunikat "b³êdny pin" -> menu: spróbuj ponownie, anuluj
+- dalej: czy zgadza siê z informacj¹ na karcie? -> dalej, je¿eli nie -> komunikat b³êdu
+- dalej: menu czynnoœci
+user input: wybrano: wyp³ata, wybrano: iloœæ (100), wybrano: nomina³y (5x20)
+- sprawdzenie czy wystarczy œrodków na koncie:
+-- po³¹cz siê z bankiem
+-- spytaj o stan konta
+-- sprawdŸ limit dzienny
+-- stan konta>=100: ok, stan konta< -> komunikat "nie masz wystarczaj¹cej kasy"
+-- roz³¹cz siê z bankiem
+- komunikat: czy drukowaæ potwierdzenie? tak -> drukuj, nie -> nie drukuj
+- wydaj kartê
+-- je¿eli wszystkie warun ki OK, to wyp³ata kwoty
