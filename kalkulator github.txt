@@ -1,0 +1,86 @@
+Dzia³anie kalkulatora
+1. w³¹cz kalkulator
+2. Dodawanie
+user input: wybrano: cyfra/liczba A 
+- sprawdŸ poprawnoœæ zapisu: 
+-- sprawdŸ czy to zbitek cyfr 
+-- sprawdŸ czy ma znak "," w liczbie = 1
+-- sprawdŸ czy ma dodatkowy znak "%"
+-- sprawdŸ czy >= 0 lub <= 0
+- je¿eli poprawna -> dalej, je¿eli niepoprawna -> wyœwietl komunikat o b³êdzie
+- wyœwietl cyfrê/liczbê A
+user input: wybrano: dodawanie (+)
+- przygotuj operacjê sumowania A+
+- wyœwietl operacjê jako "A+"
+user input: wybrano: cyfra/ liczba B
+- sprawdŸ poprawnoœæ zapisu: 
+-- sprawdŸ czy to zbitek cyfr 
+-- sprawdŸ czy ma znak "," w liczbie = 1
+-- sprawdŸ czy ma dodatkowy znak "%"
+-- sprawdŸ czy >= 0 lub <= 0
+- je¿eli poprawna -> dalej, je¿eli niepoprawna -> wyœwietl komunikat o b³êdzie
+- wyœwietl cyfrê/liczbê "B"
+user input: wybrano: równa siê (=)
+- przeprowadŸ sumowanie A+B
+- wyœwietl wynik operacji A+B
+-- je¿eli <= 0 -> wyœwietl "- wynik A+B"
+
+3.Odejmowanie
+user input: wybrano: odejmowanie (-)
+- wyœwietl wynik A+B jako cyfrê/liczbê C
+- wyœwietl operacjê jako "C-"
+user input: wybrano: cyfra/liczba D
+- sprawdŸ poprawnoœæ zapisu: 
+-- sprawdŸ czy to zbitek cyfr 
+-- sprawdŸ czy ma znak "," w liczbie = 1
+-- sprawdŸ czy ma dodatkowy znak "%"
+-- sprawdŸ czy >= 0 lub <= 0
+- je¿eli poprawna -> dalej, je¿eli niepoprawna -> wyœwietl komunikat o b³êdzie
+- wyœwietl cyfrê/liczbê "D"
+user input: wybrano: równa siê (=)
+- przeprowaæ odejmowanie C-D
+- wyœwietl wynik operacji C-D 
+-- je¿eli <= 0 -> wyœwietl "- wynik C-D"
+
+4.Mno¿enie
+user input: wybrano: "*"
+- wyœwietl wynik C-D jako cyfrê/liczbê E
+- wyœwietl operacjê jako "E*"
+user input: wybrano: cyfra/liczba F
+- sprawdŸ poprawnoœæ zapisu: 
+-- sprawdŸ czy to zbitek cyfr 
+-- sprawdŸ czy ma znak "," w liczbie = 1
+-- sprawdŸ czy ma dodatkowy znak "%"
+-- sprawdŸ czy >= 0 lub <= 0
+- je¿eli poprawna -> dalej, je¿eli niepoprawna -> wyœwietl komunikat o b³êdzie
+- wyœwietl cyfrê/liczbê "F"
+user input: wybrano: równa siê (=)
+- przeprowaæ mno¿enie E*F
+- wyœwietl wynik operacji E*F
+-- je¿eli <= 0 -> wyœwietl "- wynik E*F"
+
+5.Dzielenie
+user input: wybrano: "/"
+- wyœwietl wynik E*F jako cyfrê/liczbê G
+- wyœwietl operacjê jako "G/"
+user input: wybrano: cyfra/liczba H
+- sprawdŸ poprawnoœæ zapisu: 
+-- sprawdŸ czy to zbitek cyfr 
+-- sprawdŸ czy ma znak "," w liczbie = 1
+-- sprawdŸ czy ma dodatkowy znak "%"
+-- sprawdŸ czy >= 0 lub <= 0
+- je¿eli poprawna -> dalej, je¿eli niepoprawna -> wyœwietl komunikat o b³êdzie
+- wyœwietl cyfrê/liczbê "H"
+user input: wybrano: równa siê (=)
+- przeprowaæ dzielenie G/H
+- wyœwietl wynik operacji G/H
+-- je¿eli <= 0 -> wyœwietl "- wynik G/H"
+
+user input: wybrano: "CE"
+- usuñ ostatnie dzia³anie usera
+- wyœwietl je jako "0"
+- wyœwietl wczeœniejsz¹ operacjê jako cyfrê/liczbê
+
+user input: wybrano: "C"
+- zakoñcz wszystkie operacje
+- wyœwietl "0"
