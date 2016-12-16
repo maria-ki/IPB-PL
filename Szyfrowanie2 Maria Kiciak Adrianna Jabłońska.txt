@@ -1,0 +1,30 @@
+import string
+
+alfa = string.ascii_lowercase
+alfaLen = len(alfa)
+
+def shift(text, shiftValue):
+  newText = ""
+  for i in range(len(text)):
+    if ord(text[i]) + shiftValue <= 122:
+      newText += chr(ord(text[i]) + shiftValue)
+    else:
+      newText += chr(ord(text[i]) + shiftValue - alfaLen)
+  return newText
+
+opcja = 1
+while opcja != 3:
+	print('Wybierz dzia³anie:')
+	print('1 - koduj')
+	print('2  - dekoduj')
+	print('3  - zakoñcz')
+	opcja = int(input('Wybrana opcja:'))
+	if opcja ==  1:
+		print('koduj')
+		slowo = input('podaj slowo:\n')
+		n = int(input('Podaj przesuniêcie:\n'))
+		print(shift(slowo, n))
+	if opcja == 2:
+		print('dekoduj')
+	if opcja == 3:
+		print('Papa!')
